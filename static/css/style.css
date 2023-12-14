@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+Body{   
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* header  index*/
+
+.header_navIndex{
+    background-image: url("/static/imagem/capa\ index.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000200;
+   
+}
+
+.menu_navIndex{
+    display: flex;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.logoImg{
+    border-radius: 50%;
+    padding: 4rem;
+    width: 249px;
+    margin-right: -47px;
+
+}
+.span_index{
+    font-weight: 600;
+}
+.menu_nav{
+    margin: 0;
+    padding: 28px;
+    box-sizing: border-box;
+    width: 86%;
+}
+.lista_menu_index_lu{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 84%;
+    position: fixed;
+    list-style: none;
+}
+.list_menu_index:hover{
+    transition: transform 0.2s;
+    transform: scale(1.1);
+    
+}
+.galeria_index{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.card{
+    width: 8rem;
+
+}
+.img_card{
+    width: 8rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .header_navIndex {
+        background-position: right;
+    }
+    .logo{
+        flex-direction: column;
+        align-items: flex-start;
+        height: 291px;
+    }
+    .logoImg {
+        width: 286px;
+        margin-left: 35px;
+    }
+    .span_index {
+        margin-top: -47px;
+        margin-left: 104px;
+    }
+    .menu_nav{
+        display:none
+    }
+    .galeria_index {
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    /*HERO*/
+}
+.hero{
+    background-color: #8592f2;
+    color: #000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.hero_conteudo{
+    height: 265px;
+    margin-top: 2rem;
+}
+.p1{
+    width: 314px;
+    font-size: 23px;
+}
+.hero_h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 65px;
+    margin-top: 22px;
+}
+.heroH2_imag{
+    width: 230px;
+}
+.hero_h2a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 65px;
+    margin-top: 22px;
+}
+.hero_h2a:hover {
+    
+    transition: transform 0.2s;
+    transform: scale(1.1);
+}
+.exame{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    align-items: center;
+}
+@media(max-width:1024px){
+    .hero {
+        margin: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .p1{
+        width: 300px;
+        font-size: 23px;
+        padding: 10px;
+    }
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.video_youtube {
+    margin: 15px;
+    width: 550px;
+    border-radius: 50px;
+}
+.span_video{
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+    .video_youtube{
+        width: 350px;
+    }
+}
+/* MAPAS */
+.localizacao{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: #0D1977;
+}
+.local{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (max-width: 1024px){
+    .localizacao{
+        flex-direction: column;
+        
+    }
+}
+
+
+/*FOOTER*/
+.footer{
+    height: 254px;
+    background: linear-gradient(180deg, #737DB0 0%, rgba(217, 217, 217, 0.00) 100%);
+    color: #000200;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    height: 122px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 31px;
+}
+.span_footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-weight: 200;
+    height: 100px;
+    margin-left: 6px;
+    align-items: center;
+}
+.bi:hover{
+    transition: transform 0.2s;
+    transform: scale(1.1);
+    color:#0505FC;
+}
+
+
